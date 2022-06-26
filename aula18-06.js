@@ -3,13 +3,6 @@
 // Editar os dados
 // Excluir os dados
 
-// nome - string
-// sobrenome - string
-// email - string
-// cpf - number
-// data de nascimento - string
-
-
 let clientes = []
 
 /**
