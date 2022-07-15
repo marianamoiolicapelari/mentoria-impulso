@@ -122,7 +122,6 @@ function exibeUmUsuárioPorCpf(cpf) {
 
 
 adicionarCliente('Maria', 'Silva', 'mariasilva@gmail.com', 22222222222, '11/11/2011')
-adicionarCliente('Fa', 'Souza', 'joaosouza@gmail.com', 55555555555, '11/01/1987')
 adicionarCliente('João', 'Souza', 'joaosouza@gmail.com', 55555555555, '11/01/1987')
 adicionarCliente('Pedro', 'Lima', 'pedrolima@gmail.com', 99999999999, '30/12/1990')
 adicionarCliente('Luiza', 'Silva', 'luizasilva@gmail.com', 77777777777, '15/01/1990')
