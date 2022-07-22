@@ -122,7 +122,10 @@ function exibeUmUsuárioPorCpf(cpf) {
 
 
 adicionarCliente('Maria', 'Silva', 'mariasilva@gmail.com', 22222222222, '11/11/2011')
+<<<<<<< HEAD
 adicionarCliente('Fa', 'Souza', 'joaosouza@gmail.com', 55555555555, '11/01/1987')
+=======
+>>>>>>> 1214d401e029857d3957d493851b8d5dedea2b1e
 adicionarCliente('João', 'Souza', 'joaosouza@gmail.com', 55555555555, '11/01/1987')
 adicionarCliente('Pedro', 'Lima', 'pedrolima@gmail.com', 99999999999, '30/12/1990')
 adicionarCliente('Luiza', 'Silva', 'luizasilva@gmail.com', 77777777777, '15/01/1990')
@@ -136,4 +139,8 @@ adicionarCliente('Luiza', 'Silva', 'luizasilva@gmail.com', 77777777777, '15/01/1
 const novosDados = {name: 'Mariana', surename: 'Silva', email: 'mariasilva@gmail.com', cpf: 22222222222, date: '11/11/2011'}
 
 atualizaCliente(22222222222, novosDados)
+<<<<<<< HEAD
 exibirClientes()
+=======
+exibirClientes()
+>>>>>>> 1214d401e029857d3957d493851b8d5dedea2b1e
