@@ -27,7 +27,7 @@ function atualizaCliente(cpf, dadosAtuais){
   clientes.filter((clientes) => {
     if(clientes.cpf === cpf) {
       clientes = dadosAtuais
-      console.log(clientes)
+      // console.log(clientes)
       return clientes
     }
 })
