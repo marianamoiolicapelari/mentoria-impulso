@@ -27,12 +27,11 @@ function atualizaCliente(cpf, dadosAtuais){
   clientes.filter((clientes) => {
     if(clientes.cpf === cpf) {
       clientes = dadosAtuais
-      //console.log(clientes)
+      console.log(clientes)
       return clientes
     }
 })
 }
-
 
 const dadosAtuais = {nome:'Pedro', sobrenome:'Sousa', cpf:98765432198, telefone:333333333}
 
