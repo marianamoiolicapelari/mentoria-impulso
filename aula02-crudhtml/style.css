@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .form-users {
+    width: 300px;
+    box-sizing: border-box;
+    
+}
+.container .form-users form {
+    background-color: rgb(219, 217, 217);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container .form-users form .form-input {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px 0;
+}
+
+.container .table-users {
+    margin-top: 20px;
+}
+
+.container .table-users table {
+    border-collapse: collapse;
+}
+
+
+.container .table-users table thead {
+    background-color: rgb(198, 198, 197);
+}
+
+.container .table-users table thead tr th {
+    min-width: 70px;
+    text-align: left;
+}
+
+
