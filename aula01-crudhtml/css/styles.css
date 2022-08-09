@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial;
+}
+
+.container #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(228, 225, 225);
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    margin-top: 30px;
+}
+
+#form .input-form label {
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+#form .input-form input {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 3px 3px 10px rgb(119, 118, 118);
+    width: 300px;
+}
+
+#form #form-btn {
+    margin: 35px 0;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 3px 3px 10px rgb(118, 119, 119);
+    width: 30%;
+    font-size: 1rem;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 0px auto;
+    width: 400px;
+    font-family: Arial;
+  }
+  
+  .table #table-users {
+    border-collapse: collapse;
+  }
+  
+  .table #table-users tr {
+    width: 100%;
+  }
+  
+  .table #table-users #th-header-table {
+    background-color: rgb(233, 233, 233);
+  }
+  
+  .table #table-users tr th {
+    text-align: start;
+    min-width: 165px;
+    padding: 5px;
+  }
+
+
