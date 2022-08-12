@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.container #form-cad-client {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(204, 203, 205);
+    width: 400px;
+    padding: 3rem;
+}
+
+.container #form-cad-client label {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.container #form-cad-client .input-cad-client {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.container #form-cad-client .input-cad-client input {
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+}
+
+#btn-cad-client {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(160, 163, 160);
+    font-size: 20px;
+}
