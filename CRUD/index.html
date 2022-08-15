@@ -1,54 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Cadastro de Cliente</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title> Alula 13/08/2022 </title>
 </head>
-
 <body>
-    <div class="container">
-        <div class="form-client">
-            <form id="form-cad-client">
-                <div class="input-cad-client">
-                    <label for="name">Nome</label>
-                    <input type="text" name="name" placeholder="Digite seu nome">
-                </div>
-                <div class="input-cad-client">
-                    <label for="surname">Sobrenome</label>
-                    <input type="text" name="surname" placeholder="Digite seu sobrenome">
-                </div>
-                <div class="input-cad-client">
-                    <label for="phone">Telefone</label>
-                    <input type="text" name="phone" placeholder="Digite seu telefone">
-                </div>
-                <div class="input-cad-client">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" placeholder="Digite seu email">
-                </div>
-                <div class="input-cad-client">
-                    <button id="btn-cad-client" type="button">Cadastrar Cliente</button>
-                </div>
-            </form>
+  <div class="container">
+    <!-- Formulário de cadastro -->
+    <div class="form-container">
+      <form id="form-add-user">
+        <h4> Cadastro de usuário </h4>
+        <div class="input-controler">
+          <label> Nome </label>
+          <input type="text" name="name">
         </div>
-        <div id="table-users">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nome</th>
-                        <th>Sobrenome</th>
-                        <th>Telefone</th>
-                        <th>Email</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
+        <div class="input-controler">
+          <label> Sobrenome </label>
+          <input type="text" name="surname">
         </div>
+        <div class="input-controler">
+          <label> Email </label>
+          <input type="text" name="email">
+        </div>
+        <div class="input-controler">
+          <button id="btn-form-add-user" type="button">
+            Cadastrar
+          </button>
+        </div>
+      </form>
     </div>
-    
+    <!-- Lista de usuário -->
+    <div class="table-container">
+      <table id="table-users">
+        <thead>
+          <tr>
+            <th> Id </th>
+            <th> Nome </th>
+            <th> Sobrenome </th>
+            <th> Email </th>
+            <th> Ações </th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
 </body>
-<script src="./js/script.js"></script>
 </html>
