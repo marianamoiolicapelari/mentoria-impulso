@@ -1,66 +1,50 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
 }
 
-.container .form-client #form-cad-client {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(200, 200, 200);
-    width: 400px;
-    padding: 2rem;
-    margin: 20px;
+.container .form-container {
+  width: 300px;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
-.container .form-client #form-cad-client label {
-    margin: 10px 0 4px 0;
-    font-size: 20px;
+.container .form-container #form-add-user{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: rgb(224, 241, 255);
 }
 
-.container .form-client #form-cad-client .input-cad-client {
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
+.container .form-container #form-add-user h4 {
+  margin: 0px;
+  padding: 0px;
 }
 
-.container .form-client #form-cad-client .input-cad-client input {
-    padding: 6px;
-    border-radius: 5px;
-    border: none;
+.container .form-container #form-add-user .input-controler {
+  display: flex;
+  flex-direction: column;
+  margin: 6px 0px;
 }
 
-.container .form-client #form-cad-client .input-cad-client #btn-cad-client {
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(160, 163, 160);
-    font-size: 20px;
-    cursor: pointer;
+.container .table-container {
+  width: 500px;
+  box-sizing: border-box;
+}
+.container .table-container #table-users {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.container #table-users {
-    margin-top: 20px;
+.container .table-container #table-users thead {
+  background-color: rgb(224, 241, 255);
 }
 
-.container #table-users table {
-    border-collapse: collapse;
-}
-
-.container #table-users table thead {
-    background-color: rgb(198, 198, 197);
-}
-
-.container #table-users table thead tr th {
-    min-width: 100px;
-    text-align: left;
-    padding: 5px;
+.btn-success {
+  min-width: 80px;
+  padding: 8px 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
 }
