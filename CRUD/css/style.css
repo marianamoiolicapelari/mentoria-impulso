@@ -14,7 +14,7 @@
 .container .form-client #form-cad-client {
     display: flex;
     flex-direction: column;
-    background-color: rgb(204, 203, 205);
+    background-color: rgb(200, 200, 200);
     width: 400px;
     padding: 2rem;
     margin: 20px;
