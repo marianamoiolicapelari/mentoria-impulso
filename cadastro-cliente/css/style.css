@@ -1,0 +1,69 @@
+* {
+    border: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.container-client .create-cad-client {
+    background-color: rgb(201, 214, 214);
+    padding: 25px;
+    width: 400px;
+}
+
+.container-client .create-cad-client #cad-client .input-controler {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-client .create-cad-client #cad-client .input-controler label {
+    margin-bottom: 5px;
+}
+
+.container-client .create-cad-client #cad-client .input-controler input {
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+#btn-cad-client {
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 12px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container-client .create-table-client #table-client {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.container-client .create-table-client #table-client thead {
+    background-color: rgb(182, 197, 197);
+    padding: 4px;
+    
+}
+
+.container-client .create-table-client #table-client thead tr th {
+    text-align: start;
+    min-width: 80px;
+}
+
+.btn-success {
+    min-width: 80px;
+    padding: 8px 10px;
+    background-color: rgb(165, 16, 16);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }

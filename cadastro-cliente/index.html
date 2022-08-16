@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+    <main class="container-client">
+
+        <div class="create-cad-client">
+            <form id="cad-client">
+                <div class="input-controler">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" name="name" placeholder="Digite o nome completo">
+                </div>
+                <div class="input-controler">
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf" placeholder="Digite o CPF">
+                </div>
+                <div class="input-controler">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" placeholder="Digite o email">
+                </div>
+                <div class="input-controler">
+                    <label for="phone">Telefone</label>
+                    <input type="text" name="phone" placeholder="(xx) xxxxx-xxxx">
+                </div>
+                <div class="input-controler">
+                    <label for="datenasc">Data Nascimento</label>
+                    <input type="date" name="datenasc">
+                </div>
+                <div class="input-controler">
+                    <label for="nationality">Nacionalidade</label>
+                    <input type="text" name="nationality" placeholder="Digite o país de origem">
+                </div>
+                <div class="input-controler">
+                    <label for="street">Endereço</label>
+                    <input type="text" name="street" placeholder="Digite o endereço">
+                </div>
+                <div class="input-controler">
+                    <label for="district">Bairro</label>
+                    <input type="text" name="district" placeholder="Digite o bairro">
+                </div>
+                <div class="input-controler">
+                    <label for="complement">Complemento</label>
+                    <input type="text" name="complement" placeholder="Digite o complemento">
+                </div>
+                <div class="input-controler">
+                    <label for="city">Cidade</label>
+                    <input type="text" name="city" placeholder="Digite a cidade">
+                </div>
+                <div class="input-controler">
+                    <label for="country">País</label>
+                    <input type="text" name="country" placeholder="Digite o país">
+                </div>
+                <div class="input-controler">
+                    <button id="btn-cad-client" type="button">Adicionar</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="create-table-client">
+            <table id="table-client">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nome Completo</th>
+                        <th>CPF</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                        <th>Data Nasc</th>
+                        <th>Nacionalidade</th>
+                        <th>Endereço</th>
+                        <th>Bairro</th>
+                        <th>Comp</th>
+                        <th>Cidade</th>
+                        <th>País</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
