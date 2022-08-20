@@ -1,0 +1,39 @@
+.container-cad-client {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.container-cad-client #cad-client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(183, 192, 192);
+    width: 300px;
+    padding: 20px;
+}
+
+.container-cad-client #cad-client .input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.container-cad-client .table-client {
+    margin-top: 20px;
+}
+
+.container-cad-client .table-client #table-client thead tr th {
+    background-color: rgb(183, 192, 192);
+    min-width: 100px;
+    
+}
+
+.btn-delete {
+    width: 20px;
+    background-color: rgb(145, 7, 7);
+}
+
+
+
