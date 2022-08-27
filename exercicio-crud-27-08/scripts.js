@@ -4,6 +4,16 @@ const tableClient = document.getElementById('cad-client-table')
 
 let users = []
 
+const deleteUser = (id) => {
+    users = users.filter((user) => user.id !== id)
+    createTable()
+}
+
+/**
+ * Cria a tabela de cliente
+ * 
+ * @return {void} createTable
+ */
 const createTable = () => {
     const tbody = document.createElement('tbody')
     tableClient.querySelector('tbody').remove()
@@ -37,7 +47,7 @@ const createTable = () => {
     })
 }
 
-btnAddClient.addEventListener('click', addUser = () => {
+const addUser = () => {
     const formData = new FormData(formAddClient)
     const { name, cpf } = Object.fromEntries(formData)
 
@@ -47,12 +57,11 @@ btnAddClient.addEventListener('click', addUser = () => {
     users.push(user)
     createTable()
     
-})
-
-const deleteUser = (id) => {
-    users = users.filter((user) => user.id !== id)
-    createTable()
 }
+
+btnAddClient.addEventListener('click', addUser )
+
+
 
 
 
