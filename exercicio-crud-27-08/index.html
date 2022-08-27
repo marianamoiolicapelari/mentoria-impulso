@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CRUD</title>
+</head>
+
+<body>
+    <div class="container-cad-client">
+        <div class="cad-client">
+            <form id="cad-client-form">
+                <div class="cad-client-input">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome" />
+                </div>
+                <div class="cad-client-input">
+                    <label for="name">CPF</label>
+                    <input type="text" name="cpf" placeholder="Digite seu CPF" />
+                </div>
+                <div class="cad-client-input">
+                    <button id="btn-cad-client-form" type="button">Adicionar Cliente</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="table-client">
+            <table id="cad-client-table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Acões</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

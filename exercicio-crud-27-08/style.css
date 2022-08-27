@@ -1,0 +1,62 @@
+.container-cad-client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cad-client .cad-client {
+    margin-bottom: 20px;
+}
+
+.container-cad-client .cad-client #cad-client-form {
+    width: 300px;
+    background-color: rgb(182, 190, 190);
+    padding: 20px;
+}
+
+.cad-client-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.cad-client-input label {
+    margin-bottom: 5px;
+}
+
+.cad-client-input input {
+    border-radius: 5px;
+    padding: 4px;
+    border: none;
+}
+
+#btn-cad-client-form {
+    border-radius: 5px;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.container-cad-client .table-client #cad-client-table {
+    width: 300px;
+    border-collapse: collapse;
+}
+
+.container-cad-client .table-client #cad-client-table thead {
+    background-color: rgb(182, 190, 190);
+}
+
+.container-cad-client .table-client #cad-client-table thead tr th {
+    min-width: 100px;
+}
+
+.btn-success {
+    min-width: 80px;
+    padding: 6px 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
