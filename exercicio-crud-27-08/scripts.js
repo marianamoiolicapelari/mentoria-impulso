@@ -4,6 +4,12 @@ const tableClient = document.getElementById('cad-client-table')
 
 let users = []
 
+/**
+ * Deleta cliente
+ * 
+ * @param {number} id
+ * @return {void} createTable
+ */
 const deleteUser = (id) => {
     users = users.filter((user) => user.id !== id)
     createTable()
@@ -47,6 +53,15 @@ const createTable = () => {
     })
 }
 
+
+/**
+ * Adiciona cliente a tabela
+ * 
+ * @param {number} id
+ * @param {string} name
+ * @param {string} cpf
+ * @return {void} createTable
+ */
 const addUser = () => {
     const formData = new FormData(formAddClient)
     const { name, cpf } = Object.fromEntries(formData)
