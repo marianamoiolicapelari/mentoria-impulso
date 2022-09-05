@@ -57,10 +57,8 @@ const createTable = () => {
 /**
  * Adiciona cliente a tabela
  * 
- * @param {number} id
- * @param {string} name
- * @param {string} cpf
- * @return {void} createTable
+ *
+ *  * @return {void} addUser
  */
 const addUser = () => {
     const formData = new FormData(formAddClient)
