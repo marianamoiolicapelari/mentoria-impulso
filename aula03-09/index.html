@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cadastro Clientes</title>
+</head>
+
+<body>
+    <div class="container-cad-clientes">
+        <div class="cad-clientes">
+            <form id="form-cad-clientes">
+                <div class="input-cad-clientes">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" />
+                </div>
+                <div class="input-cad-clientes">
+                    <label for="surname">Sobrenome</label>
+                    <input id="surname" type="text" name="surname" />
+                </div>
+                <div class="input-cad-clientes">
+                    <button type="button" id="btn-cad-clientes" >
+                        Adicionar Cliente
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div class="table-clientes">
+            <table id="table-clientes">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

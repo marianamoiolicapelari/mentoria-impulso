@@ -1,0 +1,24 @@
+.container-cad-clientes {
+    display: flex;
+    flex-direction: column;
+}
+
+.cad-clientes {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(177, 177, 176);
+    padding: 20px;
+}
+
+.input-cad-clientes {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+#table-clientes thead tr th {
+    background-color: rgb(177, 177, 176);
+    min-width: 150px;
+    
+}
