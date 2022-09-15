@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper #table-view {
+    border-collapse: collapse;
+    min-width: 70%;
+}
+
+.wrapper #table-view thead tr td{
+    background-color: rgb(183, 123, 240);
+}
+
+
