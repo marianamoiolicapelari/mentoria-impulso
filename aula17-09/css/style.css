@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+}
+
+.wrapper .form-add-user{
+ width: 300px;
+ box-sizing: border-box;
+ margin: 0px 20px 0px 0px;
+}
+
+.wrapper .form-add-user .input-controler{
+  display: flex;
+  flex-direction: column;
+ }
