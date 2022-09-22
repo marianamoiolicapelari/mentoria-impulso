@@ -1,14 +1,25 @@
-.wrapper {
-  display: flex;
+.container {
+    display: flex;
 }
 
-.wrapper .form-add-user{
- width: 300px;
- box-sizing: border-box;
- margin: 0px 20px 0px 0px;
+.container .form-add-user #form-add-user {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
 }
 
-.wrapper .form-add-user .input-controler{
-  display: flex;
-  flex-direction: column;
- }
+.container .form-add-user #form-add-user .input-controler {
+    margin-bottom: 8px;
+}
+
+.container .table-post-user #table-post-user thead{
+    background-color: blanchedalmond;
+    border-collapse: collapse;
+}
+
+.container .table-post-user #table-post-user thead tr td {
+    min-width: 50px;
+}
