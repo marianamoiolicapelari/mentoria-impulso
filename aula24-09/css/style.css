@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+}
+
+.container .form-add-user #form-add-user {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.container .form-add-user #form-add-user .input-controler {
+    margin-bottom: 8px;
+}
+
+.container .table-post-user #table-post-user thead{
+    background-color: blanchedalmond;
+    border-collapse: collapse;
+}
+
+.container .table-post-user #table-post-user thead tr td {
+    min-width: 50px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Manipulando API</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-add-user">
+            <form id="form-add-user">
+                <div class="input-controler">
+                    <input type="hidden" name="id">
+                </div>
+                <div class="input-controler">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="input-controler">
+                    <label for="email">Email</label>
+                    <input type="text" name="email">
+                </div>
+                <div class="input-controler">
+                    <button id="btn-add-user" type="button">Adicionar</button>
+                </div>
+            </form>
+        </div>
+        <div class="table-post-user">
+            <table id="table-post-user">
+                <thead>
+                    <tr>
+                        <td>Id</td>
+                        <td>Nome</td>
+                        <td>E-mail</td>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
