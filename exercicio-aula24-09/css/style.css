@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border: 3px solid rgb(219, 219, 215);
+    padding: 10px;
+}
+
+.wrapper #form-cad-user {
+    width: 300px;
+    background-color: rgb(219, 219, 215);
+    padding: 20px;
+}
+
+.wrapper #form-cad-user .input-controller {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.wrapper #form-cad-user .input-controller input {
+    margin-top: 3px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px 1px #9c9b9b;
+}
+
+.wrapper #form-cad-user .input-controller button {
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px 1px #9c9b9b;
+    background-color: #4cf322;
+    color: #FFF;
+    padding: 5px;
+}
+
+.wrapper #table-add-user {
+    margin-left: 10px;
+    border-collapse: collapse;
+}
+
+.wrapper #table-add-user thead tr th {
+    background-color: rgb(219, 219, 215);
+    min-width: 200px;
+    padding: 3px;
+}
