@@ -55,3 +55,12 @@
     min-width: 200px;
     padding: 3px;
 }
+
+.btn-delete {
+    min-width: 60px;
+    background-color: rgb(219, 22, 22);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
