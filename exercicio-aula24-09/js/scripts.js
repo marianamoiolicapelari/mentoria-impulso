@@ -22,6 +22,7 @@ const clearTable = () => {
 }
 
 const createTablePosts = (users) => {
+    clearTable()
     users.forEach((user) => {
         const tr = document.createElement('tr')
         let td = document.createElement('td')
@@ -96,7 +97,7 @@ const addUser = () => {
         method: 'POST',
         body: JSON.stringify(newUser),
         headers: {
-            'Content-type': 'application/json; charset=UTF-8'
+            'Content-type': 'application/json',
         }
     })
         .then(onCreateUserSuccessToJson)
@@ -107,9 +108,9 @@ btnAddUser.addEventListener('click', addUser)
 
 
 const deleteUser = (email) => {
-
-    fetch(`https://jsonplaceholder.typicode.com/user/${email}`, {
-        method: 'DELETE',
+    fetch(`https://jsonplaceholder.typicode.com/users/${email}`, {
+        method: "DELETE",
     })
 
 }
+
