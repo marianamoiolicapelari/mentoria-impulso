@@ -2,6 +2,19 @@ const formAddUser = document.getElementById('form-cad-user')
 const btnAddUser = document.getElementById('btn-form-cad-user')
 const tableAddUser = document.getElementById('table-add-user')
 
+const deleteUser = (id) => {
+    
+    fetch(`https://jsonplaceholder.typicode.com/users/${id}`, {
+        method: "DELETE",
+    })
+    .then((response) => response.json())
+    .then((response) => {
+        tableAddUser.querySelector('tbody').querySelector(`#user-${id}`).remove()
+    } )
+    .catch((error) => console.log(error))
+
+}
+
 const url = 'https://jsonplaceholder.typicode.com/users'
 
 const responseToJson = (response) => response.json()
@@ -26,10 +39,11 @@ const createTablePosts = (users) => {
     users.forEach((user) => {
         const tr = document.createElement('tr')
         let td = document.createElement('td')
+        tr.setAttribute('id',`user-${user.id}`)
 
         let btnDelete = document.createElement('button')
         btnDelete.setAttribute('class', 'btn-delete')
-        btnDelete.setAttribute('onclick', `deleteUser(${user.email})`)
+        btnDelete.setAttribute('onclick', `deleteUser('${user.id}')`)
         btnDelete.innerText = 'Deletar'
 
         td.innerText = user.name
@@ -61,6 +75,7 @@ const onCreateUserSuccessToJson = (response) => response.json()
 const onCreateUserSuccess = (response) => {
     const tr = document.createElement('tr')
     let td = document.createElement('td')
+    
 
     td.innerText = response.name
     tr.appendChild(td)
@@ -79,7 +94,7 @@ const onCreateUserSuccess = (response) => {
 
     let btnDelete = document.createElement('button')
     btnDelete.setAttribute('class', 'btn-delete')
-    btnDelete.setAttribute('onclick', `deleteUser(${response.email})`)
+    btnDelete.setAttribute('onclick', `deleteUser(${response.id})`)
     btnDelete.innerText = 'Deletar'
 
     td = document.createElement('td')
@@ -107,10 +122,5 @@ const addUser = () => {
 btnAddUser.addEventListener('click', addUser)
 
 
-const deleteUser = (email) => {
-    fetch(`https://jsonplaceholder.typicode.com/users/${email}`, {
-        method: "DELETE",
-    })
 
-}
 
