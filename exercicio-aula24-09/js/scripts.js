@@ -2,8 +2,6 @@ const formAddUser = document.getElementById("form-cad-user");
 const btnAddUser = document.getElementById("btn-form-cad-user");
 const tableAddUser = document.getElementById("table-add-user");
 
-
-
 const url = "http://localhost:3000/";
 
 const responseToJson = (response) => response.json();
@@ -86,7 +84,6 @@ const addUser = () => {
 };
 
 btnAddUser.addEventListener("click", addUser);
-
 
 const deleteUser = (id) => {
   fetch(`http://localhost:3000/${id}`, {
