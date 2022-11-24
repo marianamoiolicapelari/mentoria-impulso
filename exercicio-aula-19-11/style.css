@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper #form-client .input-controller{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 15px;
+}
+
+.table-client {
+    margin-top: 30px;
+}
+
+th {
+    min-width: 100px;
+ 
+}
