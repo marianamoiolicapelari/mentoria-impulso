@@ -19,3 +19,10 @@ th {
     min-width: 100px;
  
 }
+
+.btn-delete {
+    background-color: red;
+    color: #FFF;
+    padding: 2px;
+    cursor: pointer;
+}
