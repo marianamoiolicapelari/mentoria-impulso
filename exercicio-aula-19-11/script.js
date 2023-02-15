@@ -43,6 +43,7 @@ const createTable = (users) => {
     tr.appendChild(td);
 
     addTableClient.querySelector("tbody").appendChild(tr);
+    console.log(users)
   });
 };
 
