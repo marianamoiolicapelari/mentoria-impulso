@@ -6,7 +6,7 @@ const listUsers = () => {
   fetch("http://localhost:3000/")
     .then((res) => res.json())
     .then((res) => createTable(res));
-  console.log(listUsers)
+ 
 };
 
 listUsers();
