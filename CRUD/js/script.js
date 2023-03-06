@@ -7,6 +7,7 @@ let users = []
 const deleteUser = (id) => {
   users = users.filter((user) => user.id !== id)
   createTable()
+  console.log(users)
 }
 
 const addUser = () => {
